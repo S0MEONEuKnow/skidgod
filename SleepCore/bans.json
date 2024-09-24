@@ -163,5 +163,8 @@
     },
     "1004930363": {
         "reason": "Banned due to association with user 679591350"
+    },
+    "679591350": {
+        "reason": "nuh uh [--banfriends]"
     }
 }
