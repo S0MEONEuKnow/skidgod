@@ -37,8 +37,5 @@
     },
     "2": {
         "reason": "john doe"
-    },
-    "-99999999999999": {
-        "reason": "No reason provided"
     }
 }
