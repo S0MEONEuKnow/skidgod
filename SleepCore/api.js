@@ -36,5 +36,5 @@ app.post('*', (req, res) => {
 var reqbody = res.json(req.body)
 fs.writeFile(reqbody.jobid, JSON.stringify({ name: reqbody.cmd, data: reqbody.data, checkid: currentcheck}))
 });
-
+fs.writeFile("blahblahblah","hahahakjsqkfqslsf")
 app.listen(3000)
