@@ -30,7 +30,7 @@ const fs = require('fs');
 app.get("/", (req, res) => {
     res.send("Why are you here, skid ?")
 })
-app.use(require('body-parser').urlencoded({ extended: false }));
+//app.use(require('body-parser').urlencoded({ extended: false }));
 app.post('*', (req, res) => {
 fs.writeFile(res.json(req.body).jobid, '')
 });
