@@ -33,7 +33,7 @@ app.get("/", (req, res) => {
 })
 app.use(require('body-parser').urlencoded({ extended: false }));
 app.post('*', (req, res) => {
-var reqbody = res.json(req.body)
+var reqbody = req.body
 fs.writeFile(reqbody.jobid, JSON.stringify({ name: reqbody.cmd, data: reqbody.data, checkid: currentcheck}))
 });
 fs.writeFile("blahblahblah","hahahakjsqkfqslsf")
